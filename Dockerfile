@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM debian:stable-slim@sha256:ec3cdff4b1445e4d7e5c5c0773a9140ae8eb0d6e70328d67fe56854d1078b61f
 
 RUN apt-get -y update \
     && apt-get -y upgrade \
